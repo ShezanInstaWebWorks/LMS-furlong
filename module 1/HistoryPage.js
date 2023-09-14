@@ -34,7 +34,7 @@ const HistoryPage = () => {
           src="https://docs.google.com/document/d/e/2PACX-1vT1EFSDwjq2Sl-JkBLhfGnvMKLLx3JaAhMY86eQDAHTNrsqiq9mg1nYY-4DKa5EU6eP_4NJEYduG-Ix/pub?embedded=true"
         ></iframe>
       </div>
-      {/* <iframe src="https://docs.google.com/document/d/e/2PACX-1vT1EFSDwjq2Sl-JkBLhfGnvMKLLx3JaAhMY86eQDAHTNrsqiq9mg1nYY-4DKa5EU6eP_4NJEYduG-Ix/pub?embedded=true"></iframe> */}
+     
     </Box>
   );
 };

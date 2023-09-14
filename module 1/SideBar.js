@@ -4,6 +4,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 import Grid from '@material-ui/core/Grid';
 import { Accordion, AccordionDetails, AccordionSummary, Box, Typography, makeStyles} from "@material-ui/core";
+import CardCom from "./CardCom";
 
 const lineStyle = {
   marginLeft: ".5rem",
@@ -54,6 +55,35 @@ setEnvironment,
 }) {
   const [expanded, setExpanded] = React.useState("panel1");
   const classes = useStyles();
+  const handle=()=>{
+    setHistory(false);
+    setEngage(false);
+    setQuiz(false);
+    setDuty(false);
+    setConduct(false);
+    setWork(false);
+    setFatigue(false);
+    setBully(false);
+    setIncident(false);
+    setonSite(false);
+    setDriverSafety(false);
+    setSpace(false);
+    setElectrical(false);
+    setHouseKeep(false);
+    setManual(false);
+    setProtective(false);
+     setSafeWork(false); 
+     setStopWork(false);
+    setWorkHeight(false);
+     setQuiz2(false); 
+     setAsbestos(false);
+  setDangerousGoods(false);
+   setLead(false);
+   setQuiz3(false);
+   setEnvironment(false);
+   setWaste(false);
+    setQuiz4(false);
+  };
 
   const module1=()=>{
     setHistory(false);
