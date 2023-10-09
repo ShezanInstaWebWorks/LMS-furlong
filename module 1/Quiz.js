@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { quiz } from "./QuizData";
 import {
   Box,
   Button,
@@ -15,7 +14,7 @@ import {
   RadioGroup,
   Typography,
 } from "@material-ui/core";
-// import '../styles/globals.css';
+
 const Quiz = ({ option }) => {
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState("");
@@ -25,10 +24,7 @@ const Quiz = ({ option }) => {
     correctAnswers: 0,
     wrongAnswers: 0,
   });
-  // {
-  //   option.map((data)=>{ })
-  // }
-  // console.log("shezan",option);
+  
   const quiz=option.quiz;
   const { questions } = quiz;
   const { question, choices, correctAnswer } = questions[activeQuestion];
